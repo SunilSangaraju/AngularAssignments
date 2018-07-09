@@ -21,14 +21,6 @@ export class SuccessComponent implements OnInit {
     return this.buttonStatus;
   }
 
-  resetButton(){
-
-    if (this.buttonStatus.valid) {
-      this.buttonStatus.resetButton();
-    }
-
-  }
-
   ngOnInit() {
   }
 

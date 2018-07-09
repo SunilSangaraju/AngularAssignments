@@ -5,13 +5,15 @@ import{FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { warningComponent } from './Warning/warning.component';
 import { SuccessComponent } from './success/success.component';
+import { DirectivesComponent } from './directives/directives.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     warningComponent,
-    SuccessComponent
+    SuccessComponent,
+    DirectivesComponent
   ],
   imports: [
     BrowserModule,
